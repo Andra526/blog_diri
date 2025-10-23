@@ -16,9 +16,9 @@
         <nav id="nav-menu">
             <ul>
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="work.html">Works</a></li>
-                <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="work.html">Works</a></li>
             </ul>
         </nav>
         <div class="menu-toggle" id="menu-toggle">&#9776;</div>
@@ -28,8 +28,7 @@
         <div class="hero-text">
             <h1>Hi, I am Andra setya, <br> <span>Creative Technologist</span></h1>
             <p>Halo! Saya Andra, suka bereksperimen dengan desain dan teknologi. Saya membuat website dan aplikasi yang
-                tidak hanya terlihat bagus, tapi juga mudah digunakan. Setiap proyek bagi saya adalah kesempatan untuk
-                belajar, berkreasi, dan berbagi pengalaman digital yang menyenangkan.</p>
+                tidak hanya terlihat bagus, tapi juga mudah digunakan.</p>
             <a href="#" class="btn">Download Resume</a>
         </div>
         <div class="hero-img">
@@ -104,10 +103,9 @@
         <p>Andra setya ©2025 All rights reserved</p>
     </footer>
 
-
     <script>
         const toggle = document.getElementById('menu-toggle');
-        const nav = document.getElementById('nav-menu');
+        const nav = document.querySelector('.navbar ul');
         toggle.addEventListener('click', () => {
             nav.classList.toggle('show');
         });

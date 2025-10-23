@@ -73,9 +73,10 @@
 
     <script>
         const toggle = document.getElementById('menu-toggle');
-        const nav = document.getElementById('nav-menu');
+        const navList = document.querySelector('.navbar ul');
+
         toggle.addEventListener('click', () => {
-            nav.classList.toggle('show');
+            navList.classList.toggle('show');
         });
     </script>
 </body>
