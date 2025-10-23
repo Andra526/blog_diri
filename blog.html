@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - andra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h2 class="logo">Andra</h2>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Works</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </header>
+
+    <section class="blog-section">
+        <h1>Blog</h1>
+
+        <div class="blog-item">
+            <h3><a href="#">Membangun Identitas Digital Lewat Desain</a></h3>
+            <p class="meta">12 Feb 2019
+            <p>Di era serba digital, desain bukan sekadar tampilan visual — melainkan cara kita berkomunikasi dengan
+                dunia.
+                Saya membahas bagaimana warna, bentuk, dan konsistensi visual bisa membentuk identitas online yang kuat.
+            </p>
+        </div>
+
+        <div class="blog-item">
+            <h3><a href="#">Mengubah Ide Sederhana Menjadi Website Interaktif</a></h3>
+            <p class="meta">12 Feb 2019
+            <p>Kadang ide kecil bisa jadi awal dari sesuatu yang besar.
+                Dalam artikel ini, saya berbagi proses berpikir dan tools yang saya gunakan untuk mengubah konsep dasar
+                menjadi website interaktif yang hidup dan responsif.
+            </p>
+        </div>
+
+        <div class="blog-item">
+            <h3><a href="#">UI Interactions of the week</a></h3>
+            <p class="meta">12 Feb 2019
+            <p>Setiap desainer punya ciri khasnya sendiri.
+                Artikel ini membahas cara menemukan gaya pribadi dalam desain agar karya yang dibuat terasa orisinal dan
+                memiliki karakter kuat
+            </p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="socials">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Andra526" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Andra setya ©2025 All rights reserved</p>
+    </footer>x
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.getElementById('nav-menu');
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>

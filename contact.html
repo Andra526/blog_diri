@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Andra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h2 class="logo">Andra</h2>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html">Works</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </header>
+
+    <section class="contact-page">
+        <h1>Hubungi Saya</h1>
+        <p>
+            Terima kasih telah mengunjungi portofolio saya!
+            Jika Anda memiliki pertanyaan, ingin berdiskusi, atau tertarik berkolaborasi dalam proyek,
+            silakan isi formulir di bawah ini atau hubungi saya melalui media sosial.
+        </p>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><i class="fa-solid fa-location-dot"></i> Kota Tegal, Jawa Tengah</p>
+                <p><i class="fa-solid fa-phone"></i> +62 812-3456-7890</p>
+                <p><i class="fa-solid fa-envelope"></i> andra@example.com</p>
+
+                <div class="socials">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <label for="name">Nama</label>
+                <input type="text" id="name" placeholder="Masukkan nama Anda" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Masukkan email Anda" required>
+
+                <label for="message">Pesan</label>
+                <textarea id="message" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="socials">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Andra526" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Andra setya ©2025 All rights reserved</p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.getElementById('nav-menu');
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>

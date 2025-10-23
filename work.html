@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Detail - John</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h2 class="logo">Andra</h2>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html" class="active">Works</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </header>
+
+    <section class="work-detail">
+        <h1>Designing Dashboard e-commerce</h1>
+        <p class="meta">2020 &nbsp; | &nbsp; Dashboard</p>
+        <img src="img/foto_dashboard.png" alt="Dashboard">
+        <p>Dashboard e-commerce merupakan antarmuka visual yang dirancang untuk memudahkan pemilik toko online atau
+            manajer bisnis dalam memantau performa toko secara real-time. Dashboard ini menampilkan informasi penting
+            seperti penjualan harian, produk terlaris, jumlah pelanggan, stok barang, dan tren transaksi.</p>
+    </section>
+
+    <section class="work-detail">
+        <h1>coffee shop</h1>
+        <p class="meta">2020 &nbsp; | &nbsp; Dashboard</p>
+        <img src="img/kopi.webp" alt="Coffe Shop">
+        <p>Website coffee shop dirancang untuk menampilkan menu, promo, dan informasi lokasi secara menarik dan mudah
+            diakses. Pengunjung dapat melihat daftar minuman dan makanan, memesan secara online, serta mengetahui jam
+            operasional dan kontak kedai. Tampilan yang responsif memastikan pengalaman pengguna nyaman di desktop
+            maupun perangkat mobile.</p>
+    </section>
+
+    <footer id="contact">
+        <div class="socials">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Andra526" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Andra setya ©2025 All rights reserved</p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.getElementById('nav-menu');
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>

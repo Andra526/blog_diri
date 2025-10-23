@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andra Creative Technologist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h2 class="logo">Andra</h2>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="work.html">Works</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, I am Andra setya, <br> <span>Creative Technologist</span></h1>
+            <p>Halo! Saya Andra, suka bereksperimen dengan desain dan teknologi. Saya membuat website dan aplikasi yang
+                tidak hanya terlihat bagus, tapi juga mudah digunakan. Setiap proyek bagi saya adalah kesempatan untuk
+                belajar, berkreasi, dan berbagi pengalaman digital yang menyenangkan.</p>
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+        <div class="hero-img">
+            <img src="img/diri.jpg" alt="Andra Profile">
+        </div>
+    </section>
+
+    <section class="recent-posts">
+        <div class="section-header">
+            <h3>Recent posts</h3>
+            <a href="#">View all</a>
+        </div>
+
+        <div class="post-grid">
+            <div class="post-card">
+                <h4>Mendesain Antarmuka Web yang Mudah Diakses</h4>
+                <p class="meta">15 Okt 2025 | UI/UX, Aksesibilitas</p>
+                <p>Tips dan praktik terbaik untuk membuat website yang mudah digunakan oleh semua orang, termasuk mereka
+                    dengan keterbatasan akses..</p>
+            </div>
+            <div class="post-card">
+                <h4>Membangun Dashboard Interaktif dengan Figma</h4>
+                <p class="meta">12 Feb 2020 | Figma, Icon Design</p>
+                <p>Langkah-langkah membuat dashboard interaktif yang rapi dan konsisten menggunakan Figma, dari
+                    wireframe hingga prototyping..</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-works">
+        <h3>Kumpulan</h3>
+
+        <div class="work-item">
+            <img src="img/foto_dashboard.png" alt="Gambar Dashboard E-Commerce">
+            <div class="work-text">
+                <h4>Desain dashboard e-commerce</h4>
+                <p class="work-meta">2018</p>
+                <p>Membuat desain dashboard interaktif untuk platform e-commerce yang memudahkan pemantauan penjualan
+                    dan inventaris.
+                </p>
+            </div>
+        </div>
+
+        <div class="work-item">
+            <img src="img/kopi.webp" alt="Gambar Coffe Shop">
+            <div class="work-text">
+                <h4>Membuat website coffe shop</h4>
+                <p class="work-meta">2018 </p>
+                <p>Membuat website interaktif tampilan modern.
+                </p>
+            </div>
+        </div>
+
+        <div class="work-item">
+            <img src="img/web_desain.jpg" alt="Portfolio Website">
+            <div class="work-text">
+                <h4>Portfolio Website</h4>
+                <p class="work-meta">2023</p>
+                <p>Membangun website portfolio interaktif menggunakan HTML, CSS, dan JavaScript modern.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="contact">
+        <div class="socials">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Andra526" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Andra setya ©2025 All rights reserved</p>
+    </footer>
+
+
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.getElementById('nav-menu');
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>
